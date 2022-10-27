@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: bisque;
+    position: fixed;
+    min-width: 100%;
+}
+
+.page {
+    background-color: aqua;
+    width: 75%;
+    position: relative;
+    top: 150px;
+}
+
+.aside {
+    background-color: transparent;
+    width: 25%;
+    position: fixed;
+    top: 150px;
+    right: 0;
+}

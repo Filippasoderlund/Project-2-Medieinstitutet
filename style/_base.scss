@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: green;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+main {
+    background-color: bisque;
+    
+}
+
+.page {
+    background-color: aqua;
+    
+    position: relative;
+    
+}
+
+aside {
+    position: absolute;
+    bottom: 0;
+}
