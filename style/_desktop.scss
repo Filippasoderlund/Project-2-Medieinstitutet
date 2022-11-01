@@ -3,10 +3,9 @@
 main {
     
     position: fixed;
-    
     top: 0;
-    min-width: 100%;
     z-index: 5;
+    width: 100vw;
 }
 
 .arrow {
@@ -70,13 +69,13 @@ main {
 }
 
 .page-one {
-    top: 10px;
+    top: 100px;
     position: relative;
     
 }
 
 .p-me {
-    margin-top: 125px;
+    margin-top: 150px;
     width: 70%;
 }
 
@@ -97,7 +96,11 @@ main {
     width: 25%;
     position: fixed;
     top: 200px;
-    right: 0;
+    right: 25px;
+}
+
+.info {
+    margin-top: 60px;
 }
 
 .grid-container {
@@ -107,6 +110,7 @@ main {
     width: 100%;
     bottom: 0;
     position:absolute;
+    border: 1px solid white;
   }
   .pic-one {
     background-color: #7CB5D2;
