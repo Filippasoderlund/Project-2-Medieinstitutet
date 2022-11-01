@@ -88,6 +88,10 @@ main {
     width: 70%;
 }
 
+.more {
+    width: 70%;
+}
+
 .aside {
     background-color: transparent;
     width: 25%;
@@ -95,3 +99,32 @@ main {
     top: 200px;
     right: 0;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    min-height: 70px;
+    width: 100%;
+    bottom: 0;
+    position:absolute;
+  }
+  .pic-one {
+    background-color: #7CB5D2;
+    
+  }
+  .pic-two {
+    background-color: #9EC8D2;
+    
+  }
+  .pic-tree {
+    background-color: #B5E0DF;
+    
+  }
+  .pic-four {
+    background-color: #DCF2EE;
+    
+  }
+  .pic-five {
+    background-color: #B9EAED;
+    
+  }
