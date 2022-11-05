@@ -1,11 +1,8 @@
-
-
-main {
-    
+main {   
     position: fixed;
-    top: 10px;
+    top: 20px;
     z-index: 5;
-    width: 99%;
+    width: 90%;
 
 left: 50%;
 
@@ -14,8 +11,7 @@ transform: translateX(-50%);
 
 .page-one {
     top: 100px;
-    position: relative;
-    
+    position: relative; 
 }
 
 .p-me {
@@ -41,8 +37,7 @@ transform: translateX(-50%);
     justify-content: space-between;
 }
 
-.aside {
-    
+.aside {    
     background-color: transparent;
     width: 25%;
     position: fixed;
@@ -51,7 +46,7 @@ transform: translateX(-50%);
 }
 
 .info {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .grid-container {
