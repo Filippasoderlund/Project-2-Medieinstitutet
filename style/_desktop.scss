@@ -1,19 +1,15 @@
-
-
-main {
-    
+main {   
     position: fixed;
     top: 10px;
     z-index: 5;
-    width: 97%;
+    width: 95%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .page-one {
     top: 100px;
-    position: relative;
-    
+    position: relative; 
 }
 
 .p-me {
@@ -39,8 +35,7 @@ main {
     justify-content: space-between;
 }
 
-.aside {
-    
+.aside {    
     background-color: transparent;
     width: 25%;
     position: fixed;
@@ -49,7 +44,7 @@ main {
 }
 
 .info {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .grid-container {

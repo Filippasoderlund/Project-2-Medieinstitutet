@@ -10,8 +10,7 @@
 body {
     background-color: #B9EAED;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    
+    margin: 20px;   
 }
 
 main {
@@ -32,8 +31,7 @@ h1 {
 h2 {
     font-size: 2.5rem;
     text-shadow: -1px 1.5px 0.5px white;
-    font-family: 'Comfortaa';
-    
+    font-family: 'Comfortaa';    
 }
 
 h3 {
@@ -57,17 +55,11 @@ h5 {
     color: black;
 }
 
-p {
-    font-size: 1rem;
-    color: black;
-}
-
 .page-one {
     background-color: #B9EAED;
     min-height: 100vh;
     position: relative;
-    color: #FFC18C;
-    
+    color: #FFC18C;   
 }
 
 .p-me {
@@ -89,13 +81,7 @@ p {
     background-color: #9EC8D2;
     min-height: 100vh;
     position: relative;
-    border-radius: 10px;
-    
-}
-
-.fat {
-    font-size: 2rem;
-    font-style: 'Comfortaa';
+    border-radius: 10px;   
 }
 
 .page-tree {
@@ -105,22 +91,23 @@ p {
     
 }
 
-.work {
-    margin: 50px;
-    position: relative;
-}
-
 .page-four {
     background-color: #9EC8D2;
-    min-height: 100vh;
+    min-height: 150vh;
     position: relative;
     border-radius: 10px;
 }
 
-aside {
-    position: absolute;
+.aside {
+    padding-top: 1000px;
+    position: relative;
     bottom: 0;
     margin-left: 20px;
     font-family: 'Comfortaa';
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
 }
 
